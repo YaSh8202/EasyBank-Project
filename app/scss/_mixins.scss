@@ -11,7 +11,8 @@ $breakpoints-up: (
 
 //639px, 1023px, 1399px
 $breakpoints-down: (
-  "small": "39.375em" "medium": "63.9375em",
+  "small": "39.375em",
+  "medium": "63.9375em",
   "large": "87.5375em",
 );
 
@@ -25,4 +26,3 @@ $breakpoints-down: (
     @content;
   }
 }
-
