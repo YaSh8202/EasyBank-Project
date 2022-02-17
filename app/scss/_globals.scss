@@ -17,6 +17,9 @@ body {
   font-size: $font-med;
   color: $grayishBlue;
   font-weight: 300;
+  &.noscroll{
+    overflow: hidden;
+  }
 }
 
 a,
@@ -24,6 +27,14 @@ a:visited,
 a:hover {
   text-decoration: none;
 }
+
+// Spacing 
+.container
+{
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+}
+
 
 // Flexbox
 .flex {
@@ -62,7 +73,7 @@ button,
 
 .hide-for-desktop {
   //hide for desktop viewport widths
-  @include breakpoint-up(large){
-      display: none;
+  @include breakpoint-up(large) {
+    display: none;
   }
 }
