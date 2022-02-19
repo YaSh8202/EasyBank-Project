@@ -27,15 +27,8 @@
       background-image: none;
       // background-position: left center;
     }
-    &::before,
-    &::after {
-      // border: 1px solid magenta;
-    }
 
     &::before {
-
-      
-
       @include breakpoint-up(large) {
         content: "";
         position: absolute;
@@ -79,19 +72,7 @@
       text-align: left;
     }
 
-    h1 {
-      font-weight: 300;
-      font-size: 2.31rem;
-      line-height: 1.15;
-      color: $darkBlue;
-      margin-bottom: 1.5rem;
-      @include breakpoint-up(large) {
-        font-size: $font-xlg;
-      }
-    }
-    p {
-      line-height: 1.5;
-      margin-bottom: 2.25rem;
-    }
+    
+    
   }
 }
