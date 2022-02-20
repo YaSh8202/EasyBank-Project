@@ -345,6 +345,7 @@ button:hover::before,
   padding: 1.625rem;
   border-radius: 5px;
   margin-top: 1.5rem;
+  z-index: 100;
 }
 
 .header__menu a {
