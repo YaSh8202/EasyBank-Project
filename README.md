@@ -1,7 +1,6 @@
 # Frontend Mentor - Easybank landing page
-https://easybank-project.herokuapp.com/
 
-![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.png)
 
 ## Welcome! 👋
 
